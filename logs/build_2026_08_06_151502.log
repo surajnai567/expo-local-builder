@@ -1,0 +1,39 @@
+INFO:
+Starting prebuild process...
+
+INFO:
+Running Expo prebuild...
+
+INFO:
+Running: npx.cmd expo prebuild --no-install --platform android
+
+INFO:
+- Clearing android
+
+INFO:
+âˆš Cleared android code
+
+INFO:
+- Creating native directory (./android)
+
+INFO:
+âˆš Created native directory
+
+INFO:
+- Updating package.json
+
+INFO:
+âˆš Updated package.json | no changes
+
+INFO:
+- Running prebuild
+
+INFO:
+Â» android: EDGE_TO_EDGE_PLUGIN: `edgeToEdgeEnabled` customization is no longer available - Android 16 makes edge-to-edge mandatory. Remove the `edgeToEdgeEnabled` entry from your app.json/app.config.js.
+
+INFO:
+- Running prebuild
+
+INFO:
+âˆš Finished prebuild
+

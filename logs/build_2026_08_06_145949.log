@@ -1,0 +1,24 @@
+INFO:
+Starting build process...
+
+INFO:
+Building AAB...
+
+INFO:
+Running: gradlew.bat bundleRelease
+
+ERROR:
+[WinError 2] The system cannot find the file specified
+
+INFO:
+Starting build process...
+
+INFO:
+Building AAB...
+
+INFO:
+Running: gradlew.bat bundleRelease
+
+ERROR:
+[WinError 2] The system cannot find the file specified
+

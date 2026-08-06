@@ -1,0 +1,3003 @@
+INFO:
+Starting prebuild process...
+
+INFO:
+Running Expo prebuild...
+
+INFO:
+Running: npx.cmd expo prebuild --no-install --platform android
+
+INFO:
+- Clearing android
+
+INFO:
+âˆš Cleared android code
+
+INFO:
+- Creating native directory (./android)
+
+INFO:
+âˆš Created native directory
+
+INFO:
+- Updating package.json
+
+INFO:
+âˆš Updated package.json | no changes
+
+INFO:
+- Running prebuild
+
+INFO:
+Â» android: EDGE_TO_EDGE_PLUGIN: `edgeToEdgeEnabled` customization is no longer available - Android 16 makes edge-to-edge mandatory. Remove the `edgeToEdgeEnabled` entry from your app.json/app.config.js.
+
+INFO:
+- Running prebuild
+
+INFO:
+âˆš Finished prebuild
+
+INFO:
+Starting prebuild process...
+
+INFO:
+Running Expo prebuild...
+
+INFO:
+Running: npx.cmd expo prebuild --no-install --platform android
+
+INFO:
+- Clearing android
+
+INFO:
+âˆš Cleared android code
+
+INFO:
+- Creating native directory (./android)
+
+INFO:
+âˆš Created native directory
+
+INFO:
+- Updating package.json
+
+INFO:
+âˆš Updated package.json | no changes
+
+INFO:
+- Running prebuild
+
+INFO:
+Â» android: EDGE_TO_EDGE_PLUGIN: `edgeToEdgeEnabled` customization is no longer available - Android 16 makes edge-to-edge mandatory. Remove the `edgeToEdgeEnabled` entry from your app.json/app.config.js.
+
+INFO:
+- Running prebuild
+
+INFO:
+âˆš Finished prebuild
+
+INFO:
+Starting build process...
+
+INFO:
+Building AAB...
+
+INFO:
+Running: D:\lifeplanner\android\gradlew.bat bundleRelease
+
+INFO:
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+
+INFO:
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+
+INFO:
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+
+INFO:
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+
+INFO:
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+
+INFO:
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+
+INFO:
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+INFO:
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+
+INFO:
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+
+INFO:
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+
+INFO:
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+INFO:
+
+
+INFO:
+> Configure project :
+
+INFO:
+[32m[ExpoRootProject][0m Using the following versions:
+
+INFO:
+- buildTools:  [32m36.0.0[0m
+
+INFO:
+- minSdk:      [32m24[0m
+
+INFO:
+- compileSdk:  [32m36[0m
+
+INFO:
+- targetSdk:   [32m36[0m
+
+INFO:
+- ndk:         [32m27.1.12297006[0m
+
+INFO:
+- kotlin:      [32m2.1.20[0m
+
+INFO:
+- ksp:         [32m2.1.20-2.0.1[0m
+
+INFO:
+
+
+INFO:
+> Configure project :app
+
+INFO:
+??  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+
+INFO:
+[expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+
+INFO:
+
+
+INFO:
+> Configure project :expo-modules-core
+
+INFO:
+Linking react-native-worklets native libs into expo-modules-core build tasks
+
+INFO:
+task ':react-native-worklets:mergeDebugNativeLibs'
+
+INFO:
+task ':react-native-worklets:mergeReleaseNativeLibs'
+
+INFO:
+
+
+INFO:
+> Configure project :expo
+
+INFO:
+
+
+INFO:
+Using expo modules
+
+INFO:
+- [32mexpo-log-box[0m (57.0.0)
+
+INFO:
+- [32mexpo-constants[0m (57.0.3)
+
+INFO:
+- [32mexpo-modules-core[0m (57.0.3)
+
+INFO:
+- [33m[?][0m [32mexpo-dom-webview[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-ui[0m (57.0.4)
+
+INFO:
+- [33m[?][0m [32mexpo-asset[0m (57.0.3)
+
+INFO:
+- [33m[?][0m [32mexpo-clipboard[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-file-system[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-font[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-haptics[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-image[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-keep-awake[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-linking[0m (57.0.2)
+
+INFO:
+- [33m[?][0m [32mexpo-router[0m (57.0.4)
+
+INFO:
+- [33m[?][0m [32mexpo-splash-screen[0m (57.0.2)
+
+INFO:
+- [33m[?][0m [32mexpo-sqlite[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-status-bar[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-system-ui[0m (57.0.0)
+
+INFO:
+- [33m[?][0m [32mexpo-web-browser[0m (57.0.0)
+
+INFO:
+
+
+INFO:
+
+
+INFO:
+> Task :expo-log-box:preBuild UP-TO-DATE
+
+INFO:
+> Task :expo-modules-core:preBuild UP-TO-DATE
+
+INFO:
+> Task :expo-log-box:preReleaseBuild UP-TO-DATE
+
+INFO:
+> Task :react-native-masked-view_masked-view:preBuild UP-TO-DATE
+
+INFO:
+> Task :expo-modules-core:preReleaseBuild UP-TO-DATE
+
+INFO:
+> Task :expo-log-box:generateReleaseResValues
+
+INFO:
+> Task :expo-modules-core:generateReleaseResValues
+
+INFO:
+> Task :expo:generatePackagesList
+
+INFO:
+> Task :expo:preBuild
+
+INFO:
+> Task :expo:preReleaseBuild
+
+INFO:
+> Task :expo:generateReleaseResValues
+
+INFO:
+> Task :expo:generateReleaseResources
+
+INFO:
+> Task :expo-log-box:generateReleaseResources
+
+INFO:
+> Task :expo-modules-core:generateReleaseResources
+
+INFO:
+> Task :expo:packageReleaseResources
+
+INFO:
+> Task :expo-log-box:packageReleaseResources
+
+INFO:
+> Task :react-native-masked-view_masked-view:preReleaseBuild UP-TO-DATE
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseResValues
+
+INFO:
+> Task :expo:extractDeepLinksRelease
+
+INFO:
+> Task :expo-modules-core:packageReleaseResources
+
+INFO:
+> Task :expo-log-box:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseResources
+
+INFO:
+> Task :react-native-masked-view_masked-view:packageReleaseResources
+
+INFO:
+> Task :expo-modules-core:extractDeepLinksRelease
+
+INFO:
+> Task :expo:processReleaseManifest
+
+INFO:
+> Task :react-native-masked-view_masked-view:extractDeepLinksRelease
+
+INFO:
+> Task :expo-log-box:processReleaseManifest
+
+INFO:
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+
+INFO:
+> Task :expo:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+
+INFO:
+> Task :expo-log-box:writeReleaseAarMetadata
+
+INFO:
+> Task :expo-modules-core:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-masked-view_masked-view:processReleaseManifest
+
+INFO:
+> Task :react-native-masked-view_masked-view:writeReleaseAarMetadata
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:processReleaseManifest
+
+INFO:
+D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\src\main\AndroidManifest.xml:8:9-11:45 Warning:
+
+INFO:
+meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:compileReleaseLibraryResources
+
+INFO:
+> Task :expo:compileReleaseLibraryResources
+
+INFO:
+> Task :expo-log-box:compileReleaseLibraryResources
+
+INFO:
+> Task :expo-log-box:parseReleaseLocalResources
+
+INFO:
+> Task :expo-modules-core:parseReleaseLocalResources
+
+INFO:
+> Task :expo:parseReleaseLocalResources
+
+INFO:
+> Task :expo-log-box:generateReleaseRFile
+
+INFO:
+> Task :expo-modules-core:generateReleaseRFile
+
+INFO:
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-masked-view_masked-view:compileReleaseLibraryResources
+
+INFO:
+> Task :expo:generateReleaseBuildConfig
+
+INFO:
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo:generateReleaseRFile
+
+INFO:
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-reanimated:assertWorkletsVersionTask
+
+INFO:
+> Task :react-native-masked-view_masked-view:parseReleaseLocalResources
+
+INFO:
+> Task :expo-modules-core:generateReleaseBuildConfig
+
+INFO:
+> Task :expo-modules-core:javaPreCompileRelease
+
+INFO:
+> Task :expo:javaPreCompileRelease
+
+INFO:
+> Task :expo-log-box:generateReleaseBuildConfig
+
+INFO:
+> Task :expo-log-box:javaPreCompileRelease
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseBuildConfig
+
+INFO:
+> Task :expo:mergeReleaseShaders
+
+INFO:
+> Task :react-native-masked-view_masked-view:javaPreCompileRelease
+
+INFO:
+> Task :expo:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :expo:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :expo:mergeReleaseAssets
+
+INFO:
+> Task :expo-log-box:mergeReleaseShaders
+
+INFO:
+> Task :expo-log-box:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :expo-log-box:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseRFile
+
+INFO:
+> Task :expo-modules-core:mergeReleaseShaders
+
+INFO:
+> Task :expo-log-box:mergeReleaseAssets
+
+INFO:
+> Task :expo-modules-core:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :expo-modules-core:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :expo:mergeReleaseJniLibFolders
+
+INFO:
+> Task :expo-modules-core:mergeReleaseAssets
+
+INFO:
+> Task :expo:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :expo-log-box:mergeReleaseJniLibFolders
+
+INFO:
+> Task :expo-log-box:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :expo-log-box:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :expo:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :expo:prepareReleaseArtProfile
+
+INFO:
+> Task :expo-log-box:prepareReleaseArtProfile
+
+INFO:
+> Task :expo-modules-core:mergeReleaseJniLibFolders
+
+INFO:
+> Task :expo-modules-core:prepareReleaseArtProfile
+
+INFO:
+> Task :expo:extractProguardFiles
+
+INFO:
+> Task :expo-modules-core:extractProguardFiles
+
+INFO:
+> Task :expo-modules-core:prepareLintJarForPublish
+
+INFO:
+> Task :expo:prepareLintJarForPublish
+
+INFO:
+> Task :expo:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :expo-log-box:extractProguardFiles
+
+INFO:
+> Task :expo:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :expo:extractDeepLinksForAarRelease
+
+INFO:
+> Task :expo-log-box:prepareLintJarForPublish
+
+INFO:
+> Task :expo-log-box:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :expo-modules-core:extractDeepLinksForAarRelease
+
+INFO:
+> Task :expo-log-box:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :expo-log-box:extractDeepLinksForAarRelease
+
+INFO:
+> Task :expo-modules-core:writeReleaseLintModelMetadata
+
+INFO:
+> Task :expo-log-box:writeReleaseLintModelMetadata
+
+INFO:
+> Task :expo:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript
+
+INFO:
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript
+
+INFO:
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript
+
+INFO:
+> Task :react-native-community_datetimepicker:generateCodegenSchemaFromJavaScript
+
+INFO:
+> Task :react-native-svg:generateCodegenSchemaFromJavaScript
+
+INFO:
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript
+
+INFO:
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript
+
+INFO:
+
+
+INFO:
+> Task :expo-constants:createExpoConfig
+
+INFO:
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+INFO:
+
+
+INFO:
+> Task :expo-constants:preBuild
+
+INFO:
+> Task :expo-constants:preReleaseBuild
+
+INFO:
+> Task :expo-constants:generateReleaseResValues
+
+INFO:
+> Task :expo-constants:generateReleaseResources
+
+INFO:
+> Task :expo-constants:packageReleaseResources
+
+INFO:
+> Task :expo-constants:extractDeepLinksRelease
+
+INFO:
+> Task :expo-constants:writeReleaseAarMetadata
+
+INFO:
+> Task :expo-constants:compileReleaseLibraryResources
+
+INFO:
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :expo-constants:parseReleaseLocalResources
+
+INFO:
+> Task :expo-constants:generateReleaseBuildConfig
+
+INFO:
+> Task :expo-constants:javaPreCompileRelease
+
+INFO:
+> Task :expo-constants:mergeReleaseShaders
+
+INFO:
+> Task :expo-constants:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :expo-constants:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :expo-constants:processReleaseManifest
+
+INFO:
+> Task :expo-constants:generateReleaseRFile
+
+INFO:
+> Task :expo-constants:mergeReleaseAssets
+
+INFO:
+> Task :expo-constants:mergeReleaseJniLibFolders
+
+INFO:
+> Task :expo-constants:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :expo-constants:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :expo-constants:prepareReleaseArtProfile
+
+INFO:
+> Task :expo-constants:extractProguardFiles
+
+INFO:
+> Task :expo-constants:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :expo-constants:prepareLintJarForPublish
+
+INFO:
+> Task :expo-constants:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :expo-constants:extractDeepLinksForAarRelease
+
+INFO:
+> Task :expo-constants:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-safe-area-context:preBuild
+
+INFO:
+> Task :react-native-safe-area-context:preReleaseBuild
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseResValues
+
+INFO:
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-community_datetimepicker:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-community_datetimepicker:preBuild
+
+INFO:
+> Task :react-native-community_datetimepicker:preReleaseBuild
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseResValues
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseResources
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseResources
+
+INFO:
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-gesture-handler:preBuild
+
+INFO:
+> Task :react-native-gesture-handler:preReleaseBuild
+
+INFO:
+> Task :react-native-gesture-handler:generateReleaseResValues
+
+INFO:
+> Task :react-native-gesture-handler:generateReleaseResources
+
+INFO:
+> Task :react-native-safe-area-context:packageReleaseResources
+
+INFO:
+> Task :react-native-community_datetimepicker:packageReleaseResources
+
+INFO:
+> Task :react-native-safe-area-context:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-safe-area-context:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-community_datetimepicker:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-safe-area-context:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-community_datetimepicker:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-community_datetimepicker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+
+
+INFO:
+> Task :react-native-safe-area-context:processReleaseManifest
+
+INFO:
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: D:\lifeplanner\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+
+INFO:
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+
+INFO:
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: D:\lifeplanner\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+
+INFO:
+
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-community_datetimepicker:processReleaseManifest
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-community_datetimepicker:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-community_datetimepicker:javaPreCompileRelease
+
+INFO:
+> Task :react-native-gesture-handler:packageReleaseResources
+
+INFO:
+> Task :react-native-safe-area-context:javaPreCompileRelease
+
+INFO:
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseShaders
+
+INFO:
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseRFile
+
+INFO:
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-gesture-handler:processReleaseManifest
+
+INFO:
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-svg:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-svg:preBuild
+
+INFO:
+> Task :react-native-svg:preReleaseBuild
+
+INFO:
+> Task :react-native-svg:generateReleaseResValues
+
+INFO:
+> Task :react-native-gesture-handler:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-svg:generateReleaseResources
+
+INFO:
+> Task :react-native-gesture-handler:javaPreCompileRelease
+
+INFO:
+> Task :react-native-gesture-handler:generateReleaseRFile
+
+INFO:
+> Task :react-native-svg:packageReleaseResources
+
+INFO:
+> Task :react-native-svg:extractDeepLinksRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-masked-view_masked-view:compileReleaseJavaWithJavac
+
+INFO:
+Note: D:\lifeplanner\node_modules\@react-native-masked-view\masked-view\android\src\main\java\org\reactnative\maskedview\RNCMaskedViewPackage.java uses or overrides a deprecated API.
+
+INFO:
+Note: Recompile with -Xlint:deprecation for details.
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-svg:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-svg:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-svg:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-svg:javaPreCompileRelease
+
+INFO:
+> Task :react-native-svg:processReleaseManifest
+
+INFO:
+> Task :react-native-svg:mergeReleaseShaders
+
+INFO:
+> Task :react-native-svg:generateReleaseRFile
+
+INFO:
+> Task :react-native-screens:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-screens:preBuild
+
+INFO:
+> Task :react-native-screens:preReleaseBuild
+
+INFO:
+> Task :react-native-screens:generateReleaseResValues
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseShaders
+
+INFO:
+> Task :react-native-gesture-handler:mergeReleaseShaders
+
+INFO:
+> Task :react-native-gesture-handler:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema
+
+INFO:
+> Task :react-native-gesture-handler:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-community_datetimepicker:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-gesture-handler:mergeReleaseAssets
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseAssets
+
+INFO:
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-gesture-handler:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :react-native-community_datetimepicker:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-gesture-handler:extractProguardFiles
+
+INFO:
+> Task :react-native-gesture-handler:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-gesture-handler:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-screens:generateReleaseResources
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseRFile
+
+INFO:
+> Task :react-native-community_datetimepicker:extractProguardFiles
+
+INFO:
+> Task :react-native-gesture-handler:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseShaders
+
+INFO:
+> Task :react-native-masked-view_masked-view:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-masked-view_masked-view:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseAssets
+
+INFO:
+> Task :react-native-masked-view_masked-view:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-masked-view_masked-view:processReleaseJavaRes NO-SOURCE
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseAssets
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :react-native-masked-view_masked-view:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-screens:packageReleaseResources
+
+INFO:
+> Task :react-native-screens:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-screens:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-masked-view_masked-view:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :react-native-screens:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-masked-view_masked-view:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-screens:processReleaseManifest
+
+INFO:
+> Task :react-native-screens:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-screens:javaPreCompileRelease
+
+INFO:
+> Task :react-native-screens:mergeReleaseShaders
+
+INFO:
+> Task :react-native-screens:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-screens:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-screens:mergeReleaseAssets
+
+INFO:
+> Task :react-native-screens:generateReleaseRFile
+
+INFO:
+> Task :react-native-masked-view_masked-view:createFullJarRelease
+
+INFO:
+> Task :react-native-masked-view_masked-view:extractProguardFiles
+
+INFO:
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs
+
+INFO:
+> Task :react-native-worklets:preBuild
+
+INFO:
+> Task :react-native-worklets:preReleaseBuild
+
+INFO:
+> Task :react-native-worklets:generateReleaseResValues
+
+INFO:
+> Task :react-native-worklets:generateReleaseResources
+
+INFO:
+> Task :react-native-worklets:packageReleaseResources
+
+INFO:
+> Task :react-native-worklets:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-worklets:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-worklets:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-worklets:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-worklets:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-worklets:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-worklets:processReleaseManifest
+
+INFO:
+> Task :react-native-worklets:javaPreCompileRelease
+
+INFO:
+> Task :react-native-worklets:mergeReleaseShaders
+
+INFO:
+> Task :react-native-worklets:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-worklets:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-worklets:generateReleaseRFile
+
+INFO:
+> Task :react-native-community_datetimepicker:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-community_datetimepicker:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :react-native-community_datetimepicker:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :react-native-safe-area-context:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-community_datetimepicker:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-safe-area-context:extractProguardFiles
+
+INFO:
+> Task :react-native-safe-area-context:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-safe-area-context:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-screens:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-worklets:mergeReleaseAssets
+
+INFO:
+> Task :react-native-safe-area-context:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+
+INFO:
+> Task :react-native-reanimated:preBuild
+
+INFO:
+> Task :react-native-reanimated:preReleaseBuild
+
+INFO:
+> Task :react-native-reanimated:generateReleaseResValues
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseLintModel
+
+INFO:
+> Task :react-native-masked-view_masked-view:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-masked-view_masked-view:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :react-native-reanimated:generateReleaseResources
+
+INFO:
+> Task :react-native-masked-view_masked-view:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-masked-view_masked-view:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-masked-view_masked-view:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-reanimated:packageReleaseResources
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-reanimated:extractDeepLinksRelease
+
+INFO:
+> Task :react-native-reanimated:writeReleaseAarMetadata
+
+INFO:
+> Task :react-native-reanimated:compileReleaseLibraryResources
+
+INFO:
+> Task :react-native-reanimated:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :react-native-reanimated:parseReleaseLocalResources
+
+INFO:
+> Task :react-native-masked-view_masked-view:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-reanimated:generateReleaseBuildConfig
+
+INFO:
+> Task :react-native-reanimated:processReleaseManifest
+
+INFO:
+> Task :react-native-reanimated:javaPreCompileRelease
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseShaders
+
+INFO:
+> Task :react-native-masked-view_masked-view:syncReleaseLibJars
+
+INFO:
+> Task :react-native-reanimated:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-reanimated:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseAssets
+
+INFO:
+> Task :react-native-reanimated:generateReleaseRFile
+
+INFO:
+> Task :react-native-masked-view_masked-view:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-reanimated:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-masked-view_masked-view:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-reanimated:extractProguardFiles
+
+INFO:
+> Task :react-native-reanimated:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-reanimated:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-reanimated:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-masked-view_masked-view:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+> Task :react-native-masked-view_masked-view:lintVitalAnalyzeRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :app:createBundleReleaseJsAndAssets
+
+INFO:
+React Compiler enabled
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:compileReleaseJavaWithJavac
+
+INFO:
+Note: Some input files use or override a deprecated API.
+
+INFO:
+Note: Recompile with -Xlint:deprecation for details.
+
+INFO:
+Note: Some input files use unchecked or unsafe operations.
+
+INFO:
+Note: Recompile with -Xlint:unchecked for details.
+
+INFO:
+
+
+INFO:
+> Task :react-native-safe-area-context:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaProviderManager.kt:39:19 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:9:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:50:54 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:9:32 'class LayoutShadowNode : ReactShadowNodeImpl' is deprecated. This class is part of Legacy Architecture and will be removed in a future release.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:110:61 'class NativeViewHierarchyOptimizer : Any' is deprecated. This class is part of Legacy Architecture and will be removed in a future release.
+
+INFO:
+
+
+INFO:
+> Task :react-native-community_datetimepicker:compileReleaseKotlin
+
+INFO:
+> Task :react-native-worklets:compileReleaseKotlin
+
+INFO:
+> Task :react-native-svg:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :react-native-svg:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :react-native-svg:bundleLibCompileToJarRelease
+
+INFO:
+
+
+INFO:
+> Task :app:createBundleReleaseJsAndAssets
+
+INFO:
+Starting Metro Bundler
+
+INFO:
+
+
+INFO:
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:mergeReleaseAssets
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:buildCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:processReleaseJavaRes NO-SOURCE
+
+INFO:
+> Task :react-native-svg:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-svg:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-svg:mergeReleaseNativeLibs NO-SOURCE
+
+INFO:
+> Task :react-native-svg:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :react-native-svg:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-screens:configureCMakeRelWithDebInfo[x86]
+
+INFO:
+> Task :react-native-svg:extractProguardFiles
+
+INFO:
+> Task :react-native-svg:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-svg:generateReleaseLintModel
+
+INFO:
+> Task :react-native-svg:createFullJarRelease
+
+INFO:
+> Task :react-native-svg:stripReleaseDebugSymbols NO-SOURCE
+
+INFO:
+> Task :react-native-svg:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-svg:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-svg:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-svg:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-svg:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-svg:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-svg:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-svg:mergeReleaseJavaResource
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:buildCMakeRelWithDebInfo[x86]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:syncReleaseLibJars
+
+INFO:
+> Task :react-native-svg:bundleReleaseLocalLintAar
+
+INFO:
+
+
+INFO:
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac
+
+INFO:
+Note: Some input files use or override a deprecated API.
+
+INFO:
+Note: Recompile with -Xlint:deprecation for details.
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-worklets:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-worklets:processReleaseJavaRes
+
+INFO:
+> Task :react-native-worklets:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-worklets:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-worklets:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:processReleaseJavaRes
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-safe-area-context:processReleaseJavaRes
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseLintModel
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseLintModel
+
+INFO:
+> Task :react-native-safe-area-context:createFullJarRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:createFullJarRelease
+
+INFO:
+> Task :react-native-screens:configureCMakeRelWithDebInfo[x86_64]
+
+INFO:
+> Task :react-native-community_datetimepicker:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-safe-area-context:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-community_datetimepicker:syncReleaseLibJars
+
+INFO:
+> Task :react-native-safe-area-context:syncReleaseLibJars
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-safe-area-context:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseLintVitalModel
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:buildCMakeRelWithDebInfo[x86_64]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-screens\android\build\intermediates\cxx\RelWithDebInfo\4b2h4a39\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-svg:lintVitalAnalyzeRelease
+
+INFO:
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+> Task :react-native-screens:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-screens:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-screens:extractProguardFiles
+
+INFO:
+> Task :react-native-screens:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-screens:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-screens:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-screens:mergeReleaseNativeLibs
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[armeabi-v7a][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :react-native-screens:stripReleaseDebugSymbols
+
+INFO:
+> Task :react-native-screens:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-community_datetimepicker:lintVitalAnalyzeRelease
+
+INFO:
+> Task :react-native-safe-area-context:lintVitalAnalyzeRelease
+
+INFO:
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86]
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[x86][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.kt:13:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.kt:58:95 'fun resolveCustomDirectEventName(eventName: String): String?' is deprecated.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.kt:234:29 'fun receiveEvent(surfaceId: Int, targetTag: Int, eventName: String, canCoalesceEvent: Boolean, customCoalesceKey: Int, params: WritableMap?, category: Int): Unit' is deprecated. Use the overload with eventTimestamp parameter instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/ReanimatedPackage.kt:5:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/ReanimatedPackage.kt:60:73 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/ReanimatedPackage.kt:61:63 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:7:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:25:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:38:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:48:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:57:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:8:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:20:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:29:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:37:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/sensor/ReanimatedSensor.kt:28:26 'val defaultDisplay: Display!' is deprecated. Deprecated in Java.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:66:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'name'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:67:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'reactContext'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:79:17 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:53:77 Unchecked cast of '(CoordinatorLayout.Behavior<View!>?..CoordinatorLayout.Behavior<*>?)' to 'BottomSheetBehavior<Screen>'.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:58:33 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:515:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenContainer.kt:250:18 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenContainer.kt:260:18 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:225:37 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:242:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:258:22 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:327:22 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenModalFragment.kt:180:22 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStack.kt:106:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:169:18 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:226:31 'var targetElevation: Float' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:229:13 'fun setHasOptionsMenu(p0: Boolean): Unit' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:439:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:446:22 'fun onPrepareOptionsMenu(p0: Menu): Unit' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:449:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:454:22 'fun onCreateOptionsMenu(p0: Menu, p1: MenuInflater): Unit' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt:181:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt:191:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:48:42 'fun replaceSystemWindowInsets(p0: Int, p1: Int, p2: Int, p3: Int): @NonNull() WindowInsetsCompat' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:49:39 'val systemWindowInsetLeft: Int' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:51:39 'val systemWindowInsetRight: Int' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:52:39 'val systemWindowInsetBottom: Int' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreensModule.kt:100:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/SearchBarView.kt:137:29 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:7:8 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:25:13 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:32:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'left'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:33:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'top'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:34:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'right'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:35:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'bottom'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:71:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:72:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:79:46 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:83:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:84:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:95:34 The corresponding parameter in the supertype 'RootView' is named 't'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:64:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchX'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:65:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchY'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:69:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchX'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:70:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchY'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/gamma/common/event/BaseEventEmitter.kt:12:38 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/gamma/tabs/host/TabsHostViewManager.kt:44:9 The corresponding parameter in the supertype 'TabsHostViewManager' is named 'view'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/safearea/SafeAreaView.kt:143:45 'fun consumeDisplayCutout(): @NonNull() WindowInsetsCompat' is deprecated. Deprecated in Java.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86_64]
+
+INFO:
+> Task :react-native-reanimated:processReleaseJavaRes
+
+INFO:
+> Task :react-native-reanimated:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-reanimated:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-reanimated:createFullJarRelease
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-reanimated:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-reanimated:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-reanimated:syncReleaseLibJars
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[x86_64][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:compileReleaseJavaWithJavac
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:externalNativeBuildRelease
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:processReleaseJavaRes
+
+INFO:
+> Task :react-native-screens:generateReleaseLintModel
+
+INFO:
+> Task :react-native-screens:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-screens:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-screens:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-screens:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-screens:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-screens:bundleLibCompileToJarRelease
+
+INFO:
+> Task :expo-modules-core:compileReleaseKotlin
+
+INFO:
+> Task :react-native-screens:bundleLibRuntimeToDirRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:externalNativeBuildRelease
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cmake\release\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:syncReleaseLibJars
+
+INFO:
+
+
+INFO:
+> Task :react-native-gesture-handler:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/Extensions.kt:8:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/Extensions.kt:13:29 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/Extensions.kt:14:32 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:createFullJarRelease
+
+INFO:
+> Task :react-native-screens:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-screens:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-gesture-handler:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-gesture-handler:processReleaseJavaRes
+
+INFO:
+> Task :react-native-gesture-handler:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-gesture-handler:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-gesture-handler:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-gesture-handler:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-gesture-handler:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-gesture-handler:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-gesture-handler:syncReleaseLibJars
+
+INFO:
+> Task :react-native-gesture-handler:createFullJarRelease
+
+INFO:
+> Task :react-native-worklets:generateJsonModelRelease
+
+INFO:
+> Task :react-native-worklets:prefabReleaseConfigurePackage
+
+INFO:
+> Task :react-native-worklets:prefabReleasePackage
+
+INFO:
+> Task :react-native-worklets:mergeReleaseJniLibFolders
+
+INFO:
+> Task :react-native-worklets:prepareReleaseArtProfile
+
+INFO:
+> Task :react-native-worklets:createFullJarRelease
+
+INFO:
+> Task :react-native-worklets:extractProguardFiles
+
+INFO:
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+> Task :react-native-worklets:generateReleaseLintModel
+
+INFO:
+> Task :react-native-worklets:prepareLintJarForPublish
+
+INFO:
+> Task :react-native-worklets:extractDeepLinksForAarRelease
+
+INFO:
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+> Task :react-native-worklets:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-worklets:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-worklets:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-worklets:writeReleaseLintModelMetadata
+
+INFO:
+> Task :react-native-worklets:lintVitalAnalyzeRelease SKIPPED
+
+INFO:
+> Task :react-native-worklets:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+> Task :react-native-worklets:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-worklets:syncReleaseLibJars
+
+INFO:
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86]
+
+INFO:
+> Task :react-native-worklets:mergeReleaseNativeLibs
+
+INFO:
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86_64]
+
+INFO:
+> Task :react-native-reanimated:generateJsonModelRelease
+
+INFO:
+> Task :react-native-reanimated:prefabReleaseConfigurePackage
+
+INFO:
+> Task :react-native-worklets:stripReleaseDebugSymbols
+
+INFO:
+> Task :react-native-worklets:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-worklets:copyReleaseJniLibsProjectOnly
+
+INFO:
+> Task :react-native-worklets:bundleReleaseLocalLintAar
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+> Task :react-native-screens:lintVitalAnalyzeRelease
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[x86]
+
+INFO:
+
+
+INFO:
+> Task :app:createBundleReleaseJsAndAssets
+
+INFO:
+Android Bundled 71964ms node_modules\expo-router\entry.js (1751 modules)
+
+INFO:
+Writing bundle output to: android\app\build\generated\assets\react\release\index.android.bundle
+
+INFO:
+Writing sourcemap output to: android\app\build\intermediates\sourcemaps\react\release\index.android.bundle.packager.map
+
+INFO:
+Copying 30 asset files
+
+INFO:
+Done writing bundle output
+
+INFO:
+Done writing sourcemap output
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[x86]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[x86_64]
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[x86_64]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\expo\node_modules\expo-modules-core\android\build\intermediates\cxx\RelWithDebInfo\4f3jcw49\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]
+
+INFO:
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+> Task :expo-modules-core:mergeReleaseNativeLibs
+
+INFO:
+> Task :expo-modules-core:stripReleaseDebugSymbols
+
+INFO:
+> Task :expo-modules-core:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :expo-modules-core:copyReleaseJniLibsProjectOnly
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/apploader/AppLoaderProvider.kt:34:52 Unchecked cast of 'Class<*>!' to 'Class<out HeadlessAppLoader>'.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:14:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:22:8 'typealias ErrorManagerModule = JSLoggerModule' is deprecated. Use JSLoggerModule instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:61:13 'val hostingRuntimeContext: MainRuntime' is deprecated. Use AppContext.runtimeContext instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:271:21 'typealias ErrorManagerModule = JSLoggerModule' is deprecated. Use JSLoggerModule instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:380:21 'val DEFAULT: Int' is deprecated. UIManagerType.DEFAULT will be deleted in the next release of React Native. Use [LEGACY] instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:381:10 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/defaultmodules/NativeModulesProxyModule.kt:16:5 'fun Constants(legacyConstantsProvider: () -> Map<String, Any?>): Unit' is deprecated. Use `Constant` or `Property` instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/events/KModuleEventEmitterWrapper.kt:99:21 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/events/KModuleEventEmitterWrapper.kt:108:21 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewDefinitionBuilder.kt:470:16 'val errorManager: JSLoggerModule?' is deprecated. Use AppContext.jsLogger instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewDefinitionBuilder.kt:470:30 'fun reportExceptionToLogBox(codedException: CodedException): Unit' is deprecated. Use appContext.jsLogger.error(...) instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewManagerDefinition.kt:41:16 'val errorManager: JSLoggerModule?' is deprecated. Use AppContext.jsLogger instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewManagerDefinition.kt:41:30 'fun reportExceptionToLogBox(codedException: CodedException): Unit' is deprecated. Use appContext.jsLogger.error(...) instead.
+
+INFO:
+
+
+INFO:
+> Task :app:generateAutolinkingNewArchitectureFiles
+
+INFO:
+> Task :app:generateAutolinkingPackageList
+
+INFO:
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+
+INFO:
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+
+INFO:
+> Task :app:generateReactNativeEntryPoint
+
+INFO:
+> Task :app:preBuild
+
+INFO:
+> Task :app:preReleaseBuild
+
+INFO:
+> Task :app:generateReleaseResValues
+
+INFO:
+> Task :app:mapReleaseSourceSetPaths
+
+INFO:
+> Task :app:generateReleaseResources
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:compileReleaseJavaWithJavac
+
+INFO:
+Note: Some input files use or override a deprecated API.
+
+INFO:
+Note: Recompile with -Xlint:deprecation for details.
+
+INFO:
+
+
+INFO:
+> Task :app:createReleaseCompatibleScreenManifests
+
+INFO:
+> Task :app:extractDeepLinksRelease
+
+INFO:
+
+
+INFO:
+> Task :app:processReleaseMainManifest
+
+INFO:
+D:\lifeplanner\android\app\src\main\AndroidManifest.xml Warning:
+
+INFO:
+provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+INFO:
+
+
+INFO:
+> Task :app:expoReleaseOverrideMaxSdkConflicts
+
+INFO:
+[33m---------- Expo Max Sdk Override Plugin ----------[0m
+
+INFO:
+[32m>>> No 'android:maxSdkVersion' conflicts found[0m
+
+INFO:
+[33m--------------------------------------------------[0m
+
+INFO:
+
+
+INFO:
+> Task :app:processReleaseManifest
+
+INFO:
+> Task :app:processApplicationManifestReleaseForBundle
+
+INFO:
+> Task :expo-modules-core:processReleaseJavaRes
+
+INFO:
+> Task :expo-modules-core:generateReleaseLintModel
+
+INFO:
+> Task :app:checkReleaseAarMetadata
+
+INFO:
+> Task :expo-modules-core:extractReleaseAnnotations
+
+INFO:
+> Task :expo-modules-core:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :expo-modules-core:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :expo-modules-core:mergeReleaseJavaResource
+
+INFO:
+> Task :expo-modules-core:bundleLibCompileToJarRelease
+
+INFO:
+> Task :app:packageReleaseResources
+
+INFO:
+> Task :app:extractReleaseVersionControlInfo
+
+INFO:
+> Task :app:parseReleaseLocalResources
+
+INFO:
+> Task :app:buildKotlinToolingMetadata
+
+INFO:
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+INFO:
+> Task :app:generateReleaseBuildConfig
+
+INFO:
+> Task :app:javaPreCompileRelease
+
+INFO:
+> Task :app:processReleaseManifestForPackage
+
+INFO:
+> Task :app:desugarReleaseFileDependencies
+
+INFO:
+> Task :app:mergeReleaseStartupProfile
+
+INFO:
+> Task :app:mergeReleaseShaders
+
+INFO:
+> Task :app:compileReleaseShaders NO-SOURCE
+
+INFO:
+> Task :app:generateReleaseAssets UP-TO-DATE
+
+INFO:
+> Task :app:mergeReleaseAssets
+
+INFO:
+> Task :app:checkReleaseDuplicateClasses
+
+INFO:
+> Task :expo-modules-core:bundleLibRuntimeToJarRelease
+
+INFO:
+
+
+INFO:
+> Task :expo-constants:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo-constants/android/src/main/java/expo/modules/constants/ConstantsModule.kt:13:5 'fun Constants(legacyConstantsProvider: () -> Map<String, Any?>): Unit' is deprecated. Use `Constant` or `Property` instead.
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:syncReleaseLibJars
+
+INFO:
+> Task :expo-modules-core:createFullJarRelease
+
+INFO:
+> Task :expo-log-box:compileReleaseKotlin
+
+INFO:
+> Task :expo-modules-core:bundleReleaseLocalLintAar
+
+INFO:
+> Task :expo-constants:compileReleaseJavaWithJavac
+
+INFO:
+> Task :expo-constants:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :expo-constants:bundleLibCompileToJarRelease
+
+INFO:
+> Task :expo-constants:processReleaseJavaRes
+
+INFO:
+> Task :expo-constants:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :expo-modules-core:generateReleaseLintVitalModel
+
+INFO:
+> Task :expo-constants:generateReleaseLintModel
+
+INFO:
+> Task :expo-constants:createFullJarRelease
+
+INFO:
+> Task :expo-constants:extractReleaseAnnotations
+
+INFO:
+> Task :expo-constants:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :expo-constants:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :expo-constants:mergeReleaseJavaResource
+
+INFO:
+> Task :expo-constants:syncReleaseLibJars
+
+INFO:
+> Task :expo-constants:bundleReleaseLocalLintAar
+
+INFO:
+> Task :expo-constants:generateReleaseLintVitalModel
+
+INFO:
+> Task :expo-modules-core:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :expo-constants:lintVitalAnalyzeRelease
+
+INFO:
+> Task :expo-log-box:compileReleaseJavaWithJavac
+
+INFO:
+> Task :expo-log-box:bundleLibCompileToJarRelease
+
+INFO:
+> Task :expo-log-box:processReleaseJavaRes
+
+INFO:
+> Task :expo-log-box:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :expo-log-box:generateReleaseLintModel
+
+INFO:
+> Task :expo-log-box:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :expo-log-box:createFullJarRelease
+
+INFO:
+> Task :expo-log-box:extractReleaseAnnotations
+
+INFO:
+> Task :expo-log-box:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :expo-log-box:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :app:mergeReleaseResources
+
+INFO:
+> Task :expo-log-box:mergeReleaseJavaResource
+
+INFO:
+> Task :expo-log-box:syncReleaseLibJars
+
+INFO:
+> Task :expo-log-box:bundleReleaseLocalLintAar
+
+INFO:
+> Task :expo-log-box:generateReleaseLintVitalModel
+
+INFO:
+> Task :expo-log-box:lintVitalAnalyzeRelease
+
+INFO:
+
+
+INFO:
+> Task :expo:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:32:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:42:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+INFO:
+
+
+INFO:
+> Task :expo-modules-core:lintVitalAnalyzeRelease
+
+INFO:
+> Task :expo:compileReleaseJavaWithJavac
+
+INFO:
+> Task :expo:processReleaseJavaRes
+
+INFO:
+> Task :expo:bundleLibCompileToJarRelease
+
+INFO:
+> Task :expo:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+> Task :expo:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :expo:generateReleaseLintModel
+
+INFO:
+> Task :expo:createFullJarRelease
+
+INFO:
+> Task :expo:extractReleaseAnnotations
+
+INFO:
+> Task :expo:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :expo:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :expo:mergeReleaseJavaResource
+
+INFO:
+> Task :expo:syncReleaseLibJars
+
+INFO:
+> Task :expo:bundleReleaseLocalLintAar
+
+INFO:
+> Task :expo:generateReleaseLintVitalModel
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :expo:lintVitalAnalyzeRelease
+
+INFO:
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[armeabi-v7a][reanimated]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[x86][reanimated]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[x86_64][reanimated]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cxx\RelWithDebInfo\5y1j4b68\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:externalNativeBuildRelease
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-reanimated\android\build\intermediates\cmake\release\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:prefabReleasePackage
+
+INFO:
+> Task :react-native-reanimated:generateReleaseLintModel
+
+INFO:
+> Task :react-native-reanimated:lintVitalAnalyzeRelease SKIPPED
+
+INFO:
+> Task :react-native-reanimated:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseNativeLibs
+
+INFO:
+
+
+INFO:
+> Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[arm64-v8a]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\RelWithDebInfo\1y4j4e2f\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\RelWithDebInfo\1y4j4e2f\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:stripReleaseDebugSymbols
+
+INFO:
+> Task :react-native-reanimated:copyReleaseJniLibsProjectAndLocalJars
+
+INFO:
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+> Task :react-native-reanimated:copyReleaseJniLibsProjectOnly
+
+INFO:
+
+
+INFO:
+> Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\RelWithDebInfo\1y4j4e2f\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\RelWithDebInfo\1y4j4e2f\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[x86]
+
+INFO:
+
+
+INFO:
+> Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[x86]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\RelWithDebInfo\1y4j4e2f\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\RelWithDebInfo\1y4j4e2f\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
