@@ -108,7 +108,7 @@ class MainWindow(ctk.CTk):
         self.start_btn = ctk.CTkButton(self.action_frame, text="START BUILD", fg_color="green", command=self.start_build)
         self.start_btn.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
         
-        self.cancel_btn = ctk.CTkButton(self.action_frame, text="CANCEL BUILD", fg_color="red", state="disabled")
+        self.cancel_btn = ctk.CTkButton(self.action_frame, text="CANCEL BUILD", fg_color="red", state="disabled", command=self.cancel_build)
         self.cancel_btn.grid(row=0, column=2, padx=10, pady=10, sticky="ew")
         
         # Build Logs
@@ -218,8 +218,7 @@ class MainWindow(ctk.CTk):
         
         self.start_btn.configure(state="disabled")
         self.prebuild_btn.configure(state="disabled")
-        # Currently no true cancel implementation as subprocess is blocking inside builder,
-        # but UI disables start.
+        self.cancel_btn.configure(state="normal")
         self.log_textbox.configure(state="normal")
         self.log_textbox.delete("1.0", "end")
         self.log_textbox.configure(state="disabled")
@@ -228,6 +227,21 @@ class MainWindow(ctk.CTk):
         
         self.build_thread = threading.Thread(target=self.build_process, args=(path,), daemon=True)
         self.build_thread.start()
+
+    def set_current_process(self, process):
+        self.current_process = process
+
+    def cancel_build(self):
+        if hasattr(self, 'current_process') and self.current_process:
+            self.logger.info("Attempting to cancel build...")
+            self.cancel_btn.configure(state="disabled")
+            try:
+                if os.name == 'nt':
+                    subprocess.run(['taskkill', '/F', '/T', '/PID', str(self.current_process.pid)], creationflags=subprocess.CREATE_NO_WINDOW)
+                else:
+                    self.current_process.kill()
+            except Exception as e:
+                self.logger.error(f"Failed to cancel process: {e}")
 
     def build_process(self, path: Path):
         try:
@@ -254,7 +268,7 @@ class MainWindow(ctk.CTk):
             clean = self.clean_var.get()
             cache = self.cache_var.get()
             
-            output_dir = run_build(android_dir, build_type, clean, cache, self.logger)
+            output_dir = run_build(android_dir, build_type, clean, cache, self.logger, self.set_current_process)
             self.output_folder = output_dir
             
             self.after(0, self.build_success)
@@ -266,12 +280,16 @@ class MainWindow(ctk.CTk):
         self.result_label.configure(text="Build Status: SUCCESS", text_color="green")
         self.start_btn.configure(state="normal")
         self.prebuild_btn.configure(state="normal")
+        self.cancel_btn.configure(state="disabled")
+        self.current_process = None
         if self.output_folder and self.output_folder.exists():
             self.open_folder_btn.configure(state="normal")
 
     def build_failed(self):
         self.result_label.configure(text="Build Status: FAILED", text_color="red")
         self.start_btn.configure(state="normal")
+        self.cancel_btn.configure(state="disabled")
+        self.current_process = None
         if hasattr(self, 'prebuild_btn'):
             self.prebuild_btn.configure(state="normal")
 
@@ -284,6 +302,7 @@ class MainWindow(ctk.CTk):
         path = Path(project_dir)
         self.start_btn.configure(state="disabled")
         self.prebuild_btn.configure(state="disabled")
+        self.cancel_btn.configure(state="normal")
         self.log_textbox.configure(state="normal")
         self.log_textbox.delete("1.0", "end")
         self.log_textbox.configure(state="disabled")
@@ -295,7 +314,11 @@ class MainWindow(ctk.CTk):
     def prebuild_process(self, path: Path):
         try:
             self.logger.info("Starting prebuild process...")
-            run_prebuild(path, self.logger)
+            v_code = self.version_code_var.get().strip()
+            v_name = self.version_name_var.get().strip()
+            update_app_json_versions(path, v_code, v_name)
+            
+            run_prebuild(path, self.logger, self.set_current_process)
             self.after(0, self.prebuild_success)
         except Exception as e:
             self.logger.error(str(e))
@@ -305,6 +328,8 @@ class MainWindow(ctk.CTk):
         self.result_label.configure(text="Prebuild Status: SUCCESS", text_color="green")
         self.start_btn.configure(state="normal")
         self.prebuild_btn.configure(state="normal")
+        self.cancel_btn.configure(state="disabled")
+        self.current_process = None
 
     def open_output_folder(self):
         if self.output_folder and self.output_folder.exists():

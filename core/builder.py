@@ -3,7 +3,7 @@ import sys
 import shutil
 from pathlib import Path
 
-def run_command(command, cwd: Path, logger):
+def run_command(command, cwd: Path, logger, process_callback=None):
     logger.info(f"Running: {' '.join(command)}")
     
     # We use subprocess.Popen to stream the output
@@ -16,6 +16,9 @@ def run_command(command, cwd: Path, logger):
         bufsize=1,
         universal_newlines=True
     )
+    
+    if process_callback:
+        process_callback(process)
     
     for line in iter(process.stdout.readline, ""):
         if line:
@@ -43,12 +46,12 @@ def clean_cache(android_dir: Path, logger):
             except Exception as e:
                 logger.warning(f"Failed to remove cache {path}: {e}")
 
-def run_prebuild(project_dir: Path, logger):
+def run_prebuild(project_dir: Path, logger, process_callback=None):
     logger.info("Running Expo prebuild...")
-    command = ["npx.cmd", "expo", "prebuild", "--no-install", "--platform", "android"] if sys.platform.startswith("win") else ["npx", "expo", "prebuild", "--no-install", "--platform", "android"]
-    run_command(command, project_dir, logger)
+    command = ["npx.cmd", "expo", "prebuild", "--no-install", "--clean", "--platform", "android"] if sys.platform.startswith("win") else ["npx", "expo", "prebuild", "--no-install", "--clean", "--platform", "android"]
+    run_command(command, project_dir, logger, process_callback)
 
-def run_build(android_dir: Path, build_type: str, clean_before: bool, remove_cache: bool, logger):
+def run_build(android_dir: Path, build_type: str, clean_before: bool, remove_cache: bool, logger, process_callback=None):
     gradlew = str(android_dir / "gradlew.bat") if sys.platform.startswith("win") else "./gradlew"
     
     if remove_cache:
@@ -56,7 +59,7 @@ def run_build(android_dir: Path, build_type: str, clean_before: bool, remove_cac
 
     if clean_before:
         logger.info("Cleaning Gradle project...")
-        run_command([gradlew, "clean"], android_dir, logger)
+        run_command([gradlew, "clean"], android_dir, logger, process_callback)
         
     if build_type.lower() == "apk":
         task = "assembleRelease"
@@ -68,7 +71,7 @@ def run_build(android_dir: Path, build_type: str, clean_before: bool, remove_cac
         raise Exception("BUILD_TYPE must be either 'apk' or 'aab'.")
         
     logger.info(f"Building {build_type.upper()}...")
-    run_command([gradlew, task], android_dir, logger)
+    run_command([gradlew, task], android_dir, logger, process_callback)
     
     logger.info("")
     logger.info("=" * 60)
