@@ -1696,3 +1696,513 @@ INFO:
 INFO:
 > Task :react-native-screens:copyReleaseJniLibsProjectAndLocalJars
 
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+
+INFO:
+> Task :react-native-masked-view_masked-view:lintVitalAnalyzeRelease
+
+INFO:
+> Task :react-native-svg:lintVitalAnalyzeRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-safe-area-context:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaProviderManager.kt:39:19 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:9:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:50:54 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:9:32 'class LayoutShadowNode : ReactShadowNodeImpl' is deprecated. This class is part of Legacy Architecture and will be removed in a future release.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:110:61 'class NativeViewHierarchyOptimizer : Any' is deprecated. This class is part of Legacy Architecture and will be removed in a future release.
+
+INFO:
+
+
+INFO:
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-safe-area-context:processReleaseJavaRes
+
+INFO:
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac
+
+INFO:
+Note: Some input files use or override a deprecated API.
+
+INFO:
+Note: Recompile with -Xlint:deprecation for details.
+
+INFO:
+
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseLintModel
+
+INFO:
+> Task :react-native-safe-area-context:createFullJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-safe-area-context:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-safe-area-context:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:processReleaseJavaRes
+
+INFO:
+> Task :react-native-community_datetimepicker:createFullJarRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-safe-area-context:syncReleaseLibJars
+
+INFO:
+> Task :react-native-safe-area-context:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseLintModel
+
+INFO:
+> Task :react-native-community_datetimepicker:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-community_datetimepicker:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-community_datetimepicker:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-community_datetimepicker:syncReleaseLibJars
+
+INFO:
+> Task :react-native-community_datetimepicker:bundleReleaseLocalLintAar
+
+INFO:
+> Task :react-native-safe-area-context:lintVitalAnalyzeRelease
+
+INFO:
+> Task :react-native-community_datetimepicker:lintVitalAnalyzeRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :app:createBundleReleaseJsAndAssets
+
+INFO:
+Android Bundled 117492ms node_modules\expo-router\entry.js (1752 modules)
+
+INFO:
+Writing bundle output to: android\app\build\generated\assets\react\release\index.android.bundle
+
+INFO:
+Writing sourcemap output to: android\app\build\intermediates\sourcemaps\react\release\index.android.bundle.packager.map
+
+INFO:
+Copying 30 asset files
+
+INFO:
+Done writing bundle output
+
+INFO:
+Done writing sourcemap output
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-worklets:processReleaseJavaRes
+
+INFO:
+> Task :react-native-worklets:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-worklets:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-worklets:bundleLibRuntimeToJarRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:66:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'name'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:67:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'reactContext'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:79:17 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:53:77 Unchecked cast of '(CoordinatorLayout.Behavior<View!>?..CoordinatorLayout.Behavior<*>?)' to 'BottomSheetBehavior<Screen>'.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:58:33 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:515:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenContainer.kt:250:18 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenContainer.kt:260:18 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:225:37 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:242:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:258:22 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenFragment.kt:327:22 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenModalFragment.kt:180:22 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStack.kt:106:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:169:18 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:226:31 'var targetElevation: Float' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:229:13 'fun setHasOptionsMenu(p0: Boolean): Unit' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:439:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:446:22 'fun onPrepareOptionsMenu(p0: Menu): Unit' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:449:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:454:22 'fun onCreateOptionsMenu(p0: Menu, p1: MenuInflater): Unit' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt:181:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt:191:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:48:42 'fun replaceSystemWindowInsets(p0: Int, p1: Int, p2: Int, p3: Int): @NonNull() WindowInsetsCompat' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:49:39 'val systemWindowInsetLeft: Int' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:51:39 'val systemWindowInsetRight: Int' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:52:39 'val systemWindowInsetBottom: Int' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreensModule.kt:100:14 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/SearchBarView.kt:137:29 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:7:8 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:25:13 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:32:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'left'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:33:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'top'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:34:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'right'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:35:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'bottom'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:71:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:72:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:79:46 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:83:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:84:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:95:34 The corresponding parameter in the supertype 'RootView' is named 't'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:64:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchX'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:65:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchY'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:69:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchX'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:70:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchY'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/gamma/common/event/BaseEventEmitter.kt:12:38 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/gamma/tabs/host/TabsHostViewManager.kt:44:9 The corresponding parameter in the supertype 'TabsHostViewManager' is named 'view'. This may cause problems when calling this function with named arguments.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/safearea/SafeAreaView.kt:143:45 'fun consumeDisplayCutout(): @NonNull() WindowInsetsCompat' is deprecated. Deprecated in Java.
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[armeabi-v7a][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-screens:processReleaseJavaRes
+
+INFO:
+> Task :react-native-screens:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-screens:bundleLibRuntimeToJarRelease
+
+INFO:
+
+
+INFO:
+> Task :react-native-reanimated:compileReleaseKotlin
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.kt:13:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.kt:58:95 'fun resolveCustomDirectEventName(eventName: String): String?' is deprecated.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.kt:234:29 'fun receiveEvent(surfaceId: Int, targetTag: Int, eventName: String, canCoalesceEvent: Boolean, customCoalesceKey: Int, params: WritableMap?, category: Int): Unit' is deprecated. Use the overload with eventTimestamp parameter instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/ReanimatedPackage.kt:5:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/ReanimatedPackage.kt:60:73 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/ReanimatedPackage.kt:61:63 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:7:8 'class UIManagerModule : ReactContextBaseJavaModule, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:25:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:38:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:48:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/EventHandler.kt:57:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:8:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:20:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:29:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/nativeProxy/NoopEventHandler.kt:37:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+INFO:
+w: file:///D:/lifeplanner/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/sensor/ReanimatedSensor.kt:28:26 'val defaultDisplay: Display!' is deprecated. Deprecated in Java.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-screens:generateReleaseLintModel
+
+INFO:
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86]
+
+INFO:
+> Task :react-native-screens:createFullJarRelease
+
+INFO:
+> Task :react-native-screens:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-screens:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-screens:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-screens:mergeReleaseJavaResource
+
+INFO:
+> Task :react-native-screens:syncReleaseLibJars
+
+INFO:
+> Task :react-native-screens:bundleReleaseLocalLintAar
+
+INFO:
+
+
+INFO:
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[x86][worklets]
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+C/C++: Hard link from 'C:\Users\Suraj\.gradle\caches\9.3.1\transforms\eb2224229ff93535bf21ac0d1e319da4\workspace\transformed\react-android-0.86.0-release\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\lifeplanner\node_modules\react-native-worklets\android\build\intermediates\cxx\RelWithDebInfo\4o2j4i3g\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+INFO:
+
+
+INFO:
+> Task :react-native-screens:generateReleaseLintVitalModel
+
+INFO:
+> Task :react-native-reanimated:compileReleaseJavaWithJavac
+
+INFO:
+> Task :react-native-reanimated:bundleLibCompileToJarRelease
+
+INFO:
+> Task :react-native-reanimated:processReleaseJavaRes
+
+INFO:
+> Task :react-native-reanimated:bundleLibRuntimeToJarRelease
+
+INFO:
+> Task :react-native-reanimated:extractReleaseAnnotations
+
+INFO:
+> Task :react-native-reanimated:createFullJarRelease
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseGeneratedProguardFiles
+
+INFO:
+> Task :react-native-reanimated:bundleLibRuntimeToDirRelease
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseConsumerProguardFiles
+
+INFO:
+> Task :react-native-reanimated:mergeReleaseJavaResource
+
