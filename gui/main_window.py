@@ -13,6 +13,7 @@ from core.credentials import load_credentials, copy_keystore
 from core.gradle import update_gradle_properties, update_build_gradle
 from core.builder import run_build, run_prebuild
 from core.expo import load_app_json_versions, update_app_json_versions
+from core.cleaner import run_cache_clean_task
 
 class MainWindow(ctk.CTk):
     def __init__(self):
@@ -83,6 +84,9 @@ class MainWindow(ctk.CTk):
         self.cache_var = ctk.BooleanVar(value=False)
         ctk.CTkCheckBox(self.options_frame, text="Remove CMake cache", variable=self.cache_var).pack(anchor="w", pady=5)
         
+        self.reinstall_modules_var = ctk.BooleanVar(value=False)
+        ctk.CTkCheckBox(self.options_frame, text="Reinstall node_modules on clean", variable=self.reinstall_modules_var).pack(anchor="w", pady=5)
+        
         # Versioning
         self.version_frame = ctk.CTkFrame(self.config_frame, fg_color="transparent")
         self.version_frame.grid(row=0, column=2, padx=10, pady=10, sticky="nw")
@@ -100,16 +104,19 @@ class MainWindow(ctk.CTk):
         # Actions
         self.action_frame = ctk.CTkFrame(self)
         self.action_frame.grid(row=2, column=0, padx=20, pady=10, sticky="ew")
-        self.action_frame.grid_columnconfigure((0,1,2), weight=1)
+        self.action_frame.grid_columnconfigure((0, 1, 2, 3), weight=1)
+        
+        self.clean_cache_btn = ctk.CTkButton(self.action_frame, text="CLEAN C++ CACHE", fg_color="#D97706", hover_color="#B45309", command=self.start_clean_cache)
+        self.clean_cache_btn.grid(row=0, column=0, padx=10, pady=10, sticky="ew")
         
         self.prebuild_btn = ctk.CTkButton(self.action_frame, text="RUN PREBUILD", fg_color="blue", command=self.start_prebuild)
-        self.prebuild_btn.grid(row=0, column=0, padx=10, pady=10, sticky="ew")
+        self.prebuild_btn.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
         
         self.start_btn = ctk.CTkButton(self.action_frame, text="START BUILD", fg_color="green", command=self.start_build)
-        self.start_btn.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
+        self.start_btn.grid(row=0, column=2, padx=10, pady=10, sticky="ew")
         
-        self.cancel_btn = ctk.CTkButton(self.action_frame, text="CANCEL BUILD", fg_color="red", state="disabled", command=self.cancel_build)
-        self.cancel_btn.grid(row=0, column=2, padx=10, pady=10, sticky="ew")
+        self.cancel_btn = ctk.CTkButton(self.action_frame, text="CANCEL", fg_color="red", state="disabled", command=self.cancel_build)
+        self.cancel_btn.grid(row=0, column=3, padx=10, pady=10, sticky="ew")
         
         # Build Logs
         self.log_frame = ctk.CTkFrame(self)
@@ -139,6 +146,7 @@ class MainWindow(ctk.CTk):
         self.build_type_var.set(self.settings.get("last_build_type", "aab"))
         self.clean_var.set(self.settings.get("clean_before_build", True))
         self.cache_var.set(self.settings.get("remove_cmake_cache", False))
+        self.reinstall_modules_var.set(self.settings.get("reinstall_modules_on_clean", False))
         self.version_code_var.set(self.settings.get("last_version_code", ""))
         self.version_name_var.set(self.settings.get("last_version_name", ""))
         
@@ -150,6 +158,7 @@ class MainWindow(ctk.CTk):
         self.settings["last_build_type"] = self.build_type_var.get()
         self.settings["clean_before_build"] = self.clean_var.get()
         self.settings["remove_cmake_cache"] = self.cache_var.get()
+        self.settings["reinstall_modules_on_clean"] = self.reinstall_modules_var.get()
         self.settings["last_version_code"] = self.version_code_var.get()
         self.settings["last_version_name"] = self.version_name_var.get()
         save_settings(self.settings)
@@ -218,6 +227,7 @@ class MainWindow(ctk.CTk):
         
         self.start_btn.configure(state="disabled")
         self.prebuild_btn.configure(state="disabled")
+        self.clean_cache_btn.configure(state="disabled")
         self.cancel_btn.configure(state="normal")
         self.log_textbox.configure(state="normal")
         self.log_textbox.delete("1.0", "end")
@@ -280,6 +290,7 @@ class MainWindow(ctk.CTk):
         self.result_label.configure(text="Build Status: SUCCESS", text_color="green")
         self.start_btn.configure(state="normal")
         self.prebuild_btn.configure(state="normal")
+        self.clean_cache_btn.configure(state="normal")
         self.cancel_btn.configure(state="disabled")
         self.current_process = None
         if self.output_folder and self.output_folder.exists():
@@ -288,6 +299,7 @@ class MainWindow(ctk.CTk):
     def build_failed(self):
         self.result_label.configure(text="Build Status: FAILED", text_color="red")
         self.start_btn.configure(state="normal")
+        self.clean_cache_btn.configure(state="normal")
         self.cancel_btn.configure(state="disabled")
         self.current_process = None
         if hasattr(self, 'prebuild_btn'):
@@ -302,6 +314,7 @@ class MainWindow(ctk.CTk):
         path = Path(project_dir)
         self.start_btn.configure(state="disabled")
         self.prebuild_btn.configure(state="disabled")
+        self.clean_cache_btn.configure(state="disabled")
         self.cancel_btn.configure(state="normal")
         self.log_textbox.configure(state="normal")
         self.log_textbox.delete("1.0", "end")
@@ -328,6 +341,54 @@ class MainWindow(ctk.CTk):
         self.result_label.configure(text="Prebuild Status: SUCCESS", text_color="green")
         self.start_btn.configure(state="normal")
         self.prebuild_btn.configure(state="normal")
+        self.clean_cache_btn.configure(state="normal")
+        self.cancel_btn.configure(state="disabled")
+        self.current_process = None
+
+    def start_clean_cache(self):
+        project_dir = self.project_path.get()
+        if not project_dir:
+            self.append_log("ERROR: Please select a project directory.")
+            return
+            
+        path = Path(project_dir)
+        self.save_current_settings()
+        
+        self.start_btn.configure(state="disabled")
+        self.prebuild_btn.configure(state="disabled")
+        self.clean_cache_btn.configure(state="disabled")
+        self.cancel_btn.configure(state="normal")
+        self.log_textbox.configure(state="normal")
+        self.log_textbox.delete("1.0", "end")
+        self.log_textbox.configure(state="disabled")
+        self.result_label.configure(text="Cache Clean: IN PROGRESS", text_color="yellow")
+        self.open_folder_btn.configure(state="disabled")
+        
+        self.build_thread = threading.Thread(target=self.clean_cache_process, args=(path,), daemon=True)
+        self.build_thread.start()
+
+    def clean_cache_process(self, path: Path):
+        try:
+            reinstall = self.reinstall_modules_var.get()
+            run_cache_clean_task(path, reinstall, self.logger, self.set_current_process)
+            self.after(0, self.clean_cache_success)
+        except Exception as e:
+            self.logger.error(str(e))
+            self.after(0, self.clean_cache_failed)
+
+    def clean_cache_success(self):
+        self.result_label.configure(text="Cache Clean: SUCCESS", text_color="green")
+        self.start_btn.configure(state="normal")
+        self.prebuild_btn.configure(state="normal")
+        self.clean_cache_btn.configure(state="normal")
+        self.cancel_btn.configure(state="disabled")
+        self.current_process = None
+
+    def clean_cache_failed(self):
+        self.result_label.configure(text="Cache Clean: FAILED", text_color="red")
+        self.start_btn.configure(state="normal")
+        self.prebuild_btn.configure(state="normal")
+        self.clean_cache_btn.configure(state="normal")
         self.cancel_btn.configure(state="disabled")
         self.current_process = None
 
