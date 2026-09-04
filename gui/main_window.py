@@ -190,9 +190,9 @@ class MainWindow(ctk.CTk):
             validate_project(path_obj)
             
             vc, vn = load_app_json_versions(path_obj)
-            if vc and not self.version_code_var.get():
+            if vc:
                 self.version_code_var.set(vc)
-            if vn and not self.version_name_var.get():
+            if vn:
                 self.version_name_var.set(vn)
             
             if not credentials_file:

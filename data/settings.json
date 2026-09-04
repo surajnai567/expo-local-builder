@@ -1,9 +1,10 @@
 {
-    "last_project": "D:/project/appoint/doc-hospital/doc-app",
-    "last_credentials": "D:/project/appoint/doc-hospital/doc-app/credentials.json",
+    "last_project": "D:/project/appoint/doc-hospital/user-app",
+    "last_credentials": "D:/project/appoint/doc-hospital/user-app/credentials.json",
     "last_build_type": "aab",
     "clean_before_build": true,
     "remove_cmake_cache": false,
-    "last_version_code": "5",
-    "last_version_name": "1.0.5"
+    "last_version_code": "3",
+    "last_version_name": "1.0.3",
+    "reinstall_modules_on_clean": false
 }
